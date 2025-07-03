@@ -1,5 +1,5 @@
 # squeue-helper
-Set of functions and autocompletion methods for working with slurm
+Set of functions and autocompletion methods for working with slurm.
 
 
 # Setup
@@ -13,17 +13,19 @@ source _squeue_helper.zsh
 
 Both version provide a set of functions, zsh just giving better autocompletion UI.
 
-### q
-`q` function is a wrapper around `squeue` with some default output format and greys out pending jobs.
+----
+
+#### q:
+`q` is a wrapper around `squeue` with a sensible default output format and greys out pending jobs.
 
 
-### qcd
-`qcd` is a wrapper around `cd` but with autocompletion for the user's jobs. 
+#### qcd:
+`qcd` is a wrapper around `cd` with added autocompletion for the user's jobs. 
 
 
-### jcd
-`jcd` will cd you to the directory whose job ID is given as argument, just like `qcd` autocompletion will suggests your currently in queue (running or not) jobs.
+#### jcd:
+`jcd` will cd you to the directory whose job ID is given as argument. Just like `qcd` autocompletion will suggest your jobs currently in queue (running or not).
 
 
-### scancel
-The scripts also adds job ID autocompletion to `scancel` command.
+#### scancel:
+The script also adds job ID autocompletion to slurm `scancel` command.
