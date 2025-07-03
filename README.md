@@ -3,7 +3,7 @@ Set of functions and autocompletion methods for working with slurm.
 
 
 # Setup
-Versions for either bash or zsh are available, the scripts just need to be sourced. 
+Versions for either bash or zsh are available, the scripts just need to be sourced, likely in your `.bashrc`/`.zshrc`: 
 
 ```bash
 source _squeue_helper.bash
@@ -11,7 +11,7 @@ OR
 source _squeue_helper.zsh
 ```
 
-Both version provide a set of functions, zsh just giving better autocompletion UI.
+Both versions provide the same set of functions, zsh just giving better autocompletion UI.
 
 ----
 
